@@ -15,16 +15,3 @@ print(product)
 
 
 
-
-
-
-
-
-
-# for i in integ:
-#     step2=int(i)
-#     step2 *= step2 *step2
-#
-#
-#
-# print(step2,end=" ")
