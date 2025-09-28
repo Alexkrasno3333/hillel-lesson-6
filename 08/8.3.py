@@ -1,10 +1,7 @@
 def find_unique_value(some_list):
     res = set(some_list)
     res2 = [x for x in res if some_list.count(x) == 1 ]
-    if res2:
-        return res2[0]
-    else:
-        return None
+    return res2[0] if res2 else None
 
 assert find_unique_value([1, 2, 1, 1]) == 2, 'Test1'
 assert find_unique_value([2, 3, 3, 3, 5, 5]) == 2, 'Test2'
